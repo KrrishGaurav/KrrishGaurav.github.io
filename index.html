@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <title>Krrish Gaurav</title>
+    </head>
+    <body>
+     
+
+        <!-- HEADER -->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Krrish Gaurav</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+                        <li class="nav__item"><a href="About.html" class="nav__link">About</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <ion-icon name="menu"></ion-icon>
+                </div>
+            </nav>
+        </header>
+
+        <!-- MAIN -->
+        <main class="l-main bd-grid">
+            <div class="home">
+                <div class="home__information">
+                    <span class="home__pressent anime-text">Hello, i'm</span><br>
+                    <h1 class="animate-charcter">Krrish Gaurav</h1><br>
+                    <span class="home__skill anime-text">A Student and also a Creator.</span>
+                    
+                    
+                </div>
+
+                <div class="home__img">
+                    <img src="assets/img/img.png" alt="">
+                </div>
+                
+                <div class="home__social">
+                    <a href="https://bit.ly/crazytechies" style="text-decoration: none; color: white;">  <ion-icon name="logo-youtube" class="home__social-icon"></ion-icon></a>
+                    <a href="https://instagram.com/krrish_gaurav/" style="text-decoration: none; color: white;"><ion-icon name="logo-instagram" class="home__social-icon"></ion-icon></a>
+                    <a href="https://linktr.ee/krrish_gaurav" style="text-decoration: none; color: white;">  <a  href="https://linktr.ee/krrish_gaurav" name="logo-link" class="home__social-icon">🔗</a></a>
+                </div>
+                
+        
+            </div>
+        </main>
+        
+        <!-- GSAP -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+
+        <!-- MAIN -->
+        <script src="assets/js/main.js"></script>
+    
+        <!-- ICONS -->
+        <script  type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+    </body>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.1/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.8.1/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyA3VkXMNVBJobtKuvTgfS7wYStJX744XAM",
+          authDomain: "krrish2.firebaseapp.com",
+          projectId: "krrish2",
+          storageBucket: "krrish2.appspot.com",
+          messagingSenderId: "844041985331",
+          appId: "1:844041985331:web:7d48292793261c333a3246",
+          measurementId: "G-MT6DS9SK80"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
+</html>
